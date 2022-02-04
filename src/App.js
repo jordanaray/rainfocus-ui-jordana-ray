@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './sass/App.scss';
+import Nav from './components/nav.js';
 
 function App() {
   return (
     <div className="App">
+      <Nav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +20,7 @@ function App() {
           Learn React
         </a>
       </header>
+
     </div>
   );
 }
