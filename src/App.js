@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.scss';
+import './sass/App.scss';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reactdd
+          Learn React
         </a>
       </header>
     </div>
