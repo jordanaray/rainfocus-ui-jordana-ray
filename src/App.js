@@ -12,8 +12,10 @@ function App() {
       <Nav />
         <div className="main">
           <div class="wrapper_inner">
-          <Badge />
-          <Schedule />
+            <div className="layout horizontal">
+            <Badge className="layout flex-30" />
+            <Schedule className="layout flex-70" />
+            </div>
           <Files />
           </div>
         </div>

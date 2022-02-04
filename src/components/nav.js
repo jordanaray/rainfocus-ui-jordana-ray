@@ -6,11 +6,11 @@ class Nav extends React.Component {
       return <div className="nav wrapper">
           <aside>
             <ul>
-                <li>First Name:</li>
-                <li>Preferred First Name for Badge: </li>
-                <li>Company:</li>
-                <li>Onsite - Badge Holders:</li>
-                <li>Onsite - Aux:</li>
+                <li>First</li>
+                <li>Prefe </li>
+                <li>Compa</li>
+                <li>Onsit</li>
+                <li>Onsit</li>
             </ul>
               
               </aside>
