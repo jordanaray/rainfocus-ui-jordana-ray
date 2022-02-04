@@ -1,5 +1,5 @@
 import React from 'react'
-import '../sass/nav.scss';
+import '../sass/files.scss';
 
 class Files extends React.Component {
     render() {
