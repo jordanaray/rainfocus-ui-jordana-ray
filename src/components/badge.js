@@ -3,7 +3,7 @@ import '../sass/badge.scss';
 
 class Badge extends React.Component {
     render() {
-      return <div className="nav">
+      return <div className="badge">
       <h1 className="red">Badge Output</h1>
       <ul>
           <li>First Name:</li>

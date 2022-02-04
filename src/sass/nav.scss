@@ -1,7 +1,38 @@
-.red {
-    color: red;
-}
-
 ul {
     list-style-type: none;
 }
+
+nav {
+    display: flex;
+    height: 100%;
+}
+aside {
+    border-right:  1px solid #ededed;
+    background: #36c;
+   // flex: 1 0 10%;
+    padding: 1rem;
+  }
+
+  li {
+    color: #fff;
+  }
+
+  .wrapper {
+    display: flex;
+    height: 100%;
+  }
+  @media (max-width: 500px) {
+    .wrapper {
+      flex-direction: column-reverse;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+  }
+  .wrapper_inner {
+    width: 90%;
+    margin: 0px auto;
+  }

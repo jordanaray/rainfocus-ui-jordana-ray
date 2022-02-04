@@ -3,8 +3,8 @@ import '../sass/nav.scss';
 
 class Nav extends React.Component {
     render() {
-      return <div className="nav">
-            <h1 className="red">Badge Output</h1>
+      return <div className="nav wrapper">
+          <aside>
             <ul>
                 <li>First Name:</li>
                 <li>Preferred First Name for Badge: </li>
@@ -12,6 +12,8 @@ class Nav extends React.Component {
                 <li>Onsite - Badge Holders:</li>
                 <li>Onsite - Aux:</li>
             </ul>
+              
+              </aside>
       </div> 
       ;
     }
