@@ -16,7 +16,7 @@ function App() {
             <div className="layout vertical flex-30 margin-end-sm margin-bottom-sm ">
               <Badge />
             </div>
-   
+
             <div className="layout vertical flex-70 margin-bottom-sm">
               <Schedule />
             </div>
