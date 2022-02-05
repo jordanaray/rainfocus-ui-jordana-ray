@@ -3,20 +3,18 @@ import '../sass/nav.scss';
 
 class Nav extends React.Component {
     render() {
-      return <div className="nav wrapper">
-          <aside>
+        return <nav className="nav">
             <ul>
                 <li>First</li>
                 <li>Prefe </li>
                 <li>Compa</li>
                 <li>Onsit</li>
                 <li>Onsit</li>
+                <span class="material-icons">assignment</span>
             </ul>
-              
-              </aside>
-      </div> 
-      ;
+        </nav>
+            ;
     }
-  }
+}
 
-  export default Nav
+export default Nav

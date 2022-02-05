@@ -1,3 +1,14 @@
 ul {
     list-style-type: none;
 }
+
+.files {
+    background-color: white;
+    flex-basis: 100%;
+    
+}
+
+.scrolling-table {
+    overflow-x:auto;
+    max-width: 100vw;
+}

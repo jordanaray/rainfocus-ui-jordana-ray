@@ -1,10 +1,13 @@
 import React from 'react'
-import '../sass/nav.scss';
+import '../sass/schedule.scss';
 
 class Schedule extends React.Component {
-    render() {
-      return <h1 className="red">Sunday</h1>;
-    }
+  render() {
+    return <div className="schedule">
+      <h1 className="red">Sunday</h1>
+    </div>
+      ;
   }
+}
 
-  export default Schedule
+export default Schedule

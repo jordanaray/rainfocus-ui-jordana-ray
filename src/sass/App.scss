@@ -3,7 +3,17 @@
   overflow: hidden;
   height: 100vh;
 }
-.main {
-  //overflow-y: auto;
+.main-container {
+  width: 100%;
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
+.margin-end-sm {
+  margin-right: 20px;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 20px;
+}

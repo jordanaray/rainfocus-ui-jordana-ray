@@ -9,16 +9,23 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-      <Nav />
-        <div className="main">
-          <div class="wrapper_inner">
-            <div className="layout horizontal">
-            <Badge className="layout flex-30" />
-            <Schedule className="layout flex-70" />
+        <Nav />
+        <div className="main-container layout vertical ">
+
+          <div className="layout horizontal vertical-sm center-justified">
+            <div className="layout vertical flex-30 margin-end-sm margin-bottom-sm ">
+              <Badge />
             </div>
-          <Files />
+   
+            <div className="layout vertical flex-70 margin-bottom-sm">
+              <Schedule />
+            </div>
+          </div>
+          <div className="layout vertical">
+            <Files />
           </div>
         </div>
+
       </div>
     </div>
   );
