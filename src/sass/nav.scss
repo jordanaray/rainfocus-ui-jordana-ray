@@ -17,6 +17,11 @@
   box-shadow: 3px 0 4px 0 rgba(0, 0, 0, 0.35);
 }
 
+.nav a:hover {
+  background-color: rgba(0, 0, 0, 0.35);
+  transition-duration: 0.2s;
+}
+
 .hr-nav-top {
   padding-top: 10px;
   border-top: 1px solid rgba(255,255,255,.25);
