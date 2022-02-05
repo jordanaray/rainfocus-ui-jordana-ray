@@ -1,19 +1,21 @@
+@import "variables" ;
+
 .nav {
   height: 100%;
   flex-direction: column;
-  background: #36c;
+  background: $brand-primary;
   min-width: 60px;
   max-width: 60px;
   text-align: center;
-  color: white;
+  color: $white;
   * span.material-icons {
-    color: white;
+    color: $white;
     padding: 10px 0;
   }
   * img {
     padding-bottom: 10px;
   }
-  background-image: linear-gradient(-180deg, #dc3862 0%, #942e80 100%);
+  background-image: linear-gradient(-180deg, $brand-primary 0%, $brand-secondary 100%);
   box-shadow: 3px 0 4px 0 rgba(0, 0, 0, 0.35);
 }
 

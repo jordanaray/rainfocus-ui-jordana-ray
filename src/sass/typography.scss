@@ -1,0 +1,158 @@
+
+@import "variables" ;
+
+/* 
+===========================
+Typography
+===========================
+*/
+
+h1 {
+    color: $dark-text !important;
+    font-family: $primary-typeface;
+    font-size: $xl-size !important;
+}
+
+h2 {
+    font-family: $primary-typeface;
+    font-size: $lg-size !important;
+}
+
+h3 {
+    color: $brand-secondary;
+    font-family: $primary-typeface;
+    font-size: $md-size !important;
+}
+
+h5 {
+    color: $gray-text;
+    font-size: $sm-size !important;
+}
+
+p {
+    font-family: $primary-typeface;
+    font-size: $xxs-size;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.md-weight {
+    font-weight: 400;
+}
+
+.brand-primary {
+    color: $brand-primary !important;
+}
+
+.brand-secondary {
+    color: $brand-secondary !important;
+}
+
+.white {
+    color: $white !important;
+}
+
+.black {
+    color: $black !important;
+}
+
+.gray {
+    color: $gray !important;
+}
+
+.gray-text {
+    color: $gray-text !important;
+}
+
+.dark-text {
+    color: $dark-text !important;
+}
+
+.xxs-text {
+    font-size: $xxs-size !important;
+}
+
+.xs-text {
+    font-size: $xs-size !important;
+}
+
+.sm-text {
+    font-size: $sm-size !important;
+}
+
+.medium-text {
+    font-size: $md-size !important;
+}
+
+.large-text {
+    font-size: $lg-size !important;
+}
+
+.xlarge-text {
+    font-size: $xl-size !important;
+}
+
+.xxlarge-text {
+    font-size: $xxl-size !important;
+}
+
+.italic {
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px !important;
+    }
+
+    h2 {
+        font-family: $primary-typeface;
+        font-size: 24px !important;
+    }
+
+    h3 {
+        color: $brand-secondary;
+        font-family: $primary-typeface;
+        font-size: 16px !important;
+    }
+
+    h5 {
+        color: $gray-text;
+        font-size: $sm-size !important;
+    }
+
+    p {
+        font-family: $primary-typeface;
+        font-size: 16px;
+    }
+
+    .xxsmall-text {
+        font-size: $xxs-size !important;
+    }
+
+    .xsmall-text {
+        font-size: $xxs-size !important;
+    }
+
+    .small-text {
+        font-size: 16px !important;
+    }
+
+    .medium-text {
+        font-size: $sm-size !important;
+    }
+
+    .large-text {
+        font-size: $md-size !important;
+    }
+
+    .xlarge-text {
+        font-size: 24px !important;
+    }
+
+    .xxlarge-text {
+        font-size: $xl-size !important;
+    }
+}

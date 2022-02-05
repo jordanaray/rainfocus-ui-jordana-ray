@@ -3,7 +3,7 @@ import '../sass/files.scss';
 
 class Files extends React.Component {
   render() {
-    return <div className="files">
+    return <div className="files panel">
       <div className="scrolling-table">
         <table>
           <tr>

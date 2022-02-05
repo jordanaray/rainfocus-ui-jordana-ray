@@ -1,5 +1,7 @@
 import './sass/App.scss';
 import './sass/layout.scss';
+import './sass/variables.scss';
+import './sass/typography.scss';
 import Nav from './components/nav.js';
 import Badge from './components/badge.js';
 import Schedule from './components/schedule.js';
@@ -13,11 +15,11 @@ function App() {
         <div className="main-container layout vertical ">
 
           <div className="layout horizontal vertical-sm center-justified">
-            <div className="layout vertical flex-30 margin-end-sm margin-bottom-sm ">
+            <div className="layout vertical flex-35 margin-end-sm margin-bottom-sm ">
               <Badge />
             </div>
 
-            <div className="layout vertical flex-70 margin-bottom-sm">
+            <div className="layout vertical flex-65 margin-bottom-sm">
               <Schedule />
             </div>
           </div>

@@ -1,8 +1,21 @@
+@import "variables";
+
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .badge {
-    background-color: white;
-    flex-basis: 100%;
+  background-color: $white;
+  flex-basis: 100%;
+  padding-bottom: 10px;
+  ul {
+    padding: 0 10px 10px 10px;
+    li {
+      line-height: 1.8;
+    }
+  }
+}
+
+.hr-badge {
+  border-bottom: 2px solid $gray;
 }
