@@ -6,6 +6,12 @@
 Typography
 ===========================
 */
+body {
+    font-family: $primary-typeface;
+    font-size: $xxs-size;
+    color: $dark-text !important;
+}
+
 
 h1 {
     color: $dark-text !important;
@@ -32,7 +38,9 @@ h5 {
 p {
     font-family: $primary-typeface;
     font-size: $xxs-size;
+    margin: 0;
 }
+
 
 .light {
     font-weight: 300;
@@ -40,6 +48,9 @@ p {
 
 .md-weight {
     font-weight: 400;
+}
+.bold {
+    font-weight: 700;
 }
 
 .brand-primary {

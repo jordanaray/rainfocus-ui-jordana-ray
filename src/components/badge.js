@@ -5,7 +5,7 @@ class Badge extends React.Component {
   render() {
     return <div className="badge panel">
       <div className="layout horizontal between-justified center hr-badge">
-        <h1 className="sm-text md-weight pl-sm ">Badge Output</h1>
+        <p className="sm-text md-weight pl-sm ">Badge Output</p>
         <a href="/"><span class="material-icons gray-text pr-sm">edit</span></a>
       </div>
       <ul className="light xxs-text">

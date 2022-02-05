@@ -1,8 +1,22 @@
-ul {
-    list-style-type: none;
-}
+@import "variables";
 
 .schedule {
-    background-color: white;
-    flex-basis: 100%;
+  background-color: white;
+  flex-basis: 100%;
+  p {
+    padding: 10px;
+  }
+  span {
+    padding: 10px 8px 10px 0px;
+    strong {
+      white-space: nowrap;
+    }
+  }
+  .material-icons {
+      color: $brand-secondary;
+  }
+}
+
+.hr-schedule {
+  border-bottom: 1px solid $gray;
 }

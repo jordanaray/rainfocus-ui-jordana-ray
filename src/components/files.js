@@ -6,23 +6,19 @@ class Files extends React.Component {
     return <div className="files panel">
       <div className="scrolling-table">
         <table>
-          <tr>
-            <th><input type="checkbox" /></th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Points</th>
-            <th>Points</th>
-            <th>Points</th>
-            <th>Points</th>
-            <th>Points</th>
-            <th>Points</th>
-            <th>Points</th>
-            <th>Points</th>
-            <th>Points</th>
-            <th>Points</th>
+          <tr className="layout horizontal ">
+            <th className="checkbox"><input type="checkbox" /></th>
+            <th>File Name</th>
+            <th>File Type</th>
+            <th>File Create Date</th>
+            <th>Published Status</th>
+            <th>Session Name</th>
+            <th>Session Code</th>
+            <th>Session Status</th>
+
           </tr>
           <tr>
-            <td><input type="checkbox" /></td>
+            <td className="checkbox"><input type="checkbox" /></td>
             <td>Jill</td>
             <td>Smith</td>
             <td>50</td>
@@ -30,14 +26,10 @@ class Files extends React.Component {
             <td>50</td>
             <td>50</td>
             <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
-            <td>50</td>
+
           </tr>
           <tr>
-            <td><input type="checkbox" /></td>
+            <td className="checkbox"><input type="checkbox" /></td>
             <td>Eve</td>
             <td>Jackson</td>
             <td>94</td>
@@ -45,14 +37,10 @@ class Files extends React.Component {
             <td>94</td>
             <td>94</td>
             <td>94</td>
-            <td>94</td>
-            <td>94</td>
-            <td>94</td>
-            <td>94</td>
-            <td>94</td>
+
           </tr>
           <tr>
-            <td><input type="checkbox" /></td>
+            <td className="checkbox"><input type="checkbox" /></td>
             <td>Adam</td>
             <td>Johnson</td>
             <td>67</td>
@@ -60,11 +48,7 @@ class Files extends React.Component {
             <td>67</td>
             <td>67</td>
             <td>67</td>
-            <td>67</td>
-            <td>67</td>
-            <td>67</td>
-            <td>67</td>
-            <td>67</td>
+
           </tr>
         </table>
       </div>
