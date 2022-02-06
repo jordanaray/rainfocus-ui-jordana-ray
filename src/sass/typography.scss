@@ -113,6 +113,10 @@ p {
     font-style: italic;
 }
 
+.material-icons {
+    font-size: $md-size;
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 24px !important;

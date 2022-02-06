@@ -78,23 +78,23 @@ td.checkbox {
   padding-left: 10px;
 }
 
-input[type="checkbox"] + label {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border: 1px solid $brand-secondary;
-  border-radius: 2px;
-  cursor: pointer;
-}
+// input[type="checkbox"] + label {
+//   display: inline-block;
+//   width: 12px;
+//   height: 12px;
+//   border: 1px solid $brand-secondary;
+//   border-radius: 2px;
+//   cursor: pointer;
+// }
 
-input[type="checkbox"]:checked + label:after {
-  position: relative;
-  top: -2px;
-  left: 1px;
-  content: "\2714";
-  font-size: 12px;
-}
+// input[type="checkbox"]:checked + label:after {
+//   position: relative;
+//   top: -2px;
+//   left: 1px;
+//   content: "\2714";
+//   font-size: 12px;
+// }
 
-input[type="checkbox"] {
-  display: none;
-}
+// input[type="checkbox"] {
+//   display: none;
+// }

@@ -22,7 +22,7 @@ class Schedule extends React.Component {
           <span className="pt-0">10:00AM - 10:45 AM</span>
           </div>
         </div>
-        <div className="layout horizontal">
+        <div className="layout horizontal vertical-sm">
           <a href="/"><span class="material-icons pr-sm">edit</span></a>
           <a href="/"><span class="material-icons pr-sm">delete</span></a>
         </div>
@@ -41,7 +41,7 @@ class Schedule extends React.Component {
             <span className="pt-0">10:00AM - 10:45 AM</span>
           </div>
         </div>
-        <div className="layout horizontal">
+        <div className="layout horizontal vertical-sm ">
           <a href="/"><span class="material-icons pr-sm">edit</span></a>
           <a href="/"><span class="material-icons pr-sm">delete</span></a>
         </div>
