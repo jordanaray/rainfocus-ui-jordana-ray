@@ -1,12 +1,36 @@
 import React from 'react'
 import '../sass/badge.scss';
+import Modal from '../Modal/Modal.js';
+
 
 class Badge extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      show: false
+    };
+    this.showModal = this.showModal.bind(this);
+    this.hideModal = this.hideModal.bind(this);
+  }
+
+  showModal = () => {
+    this.setState({ show: true });
+  };
+
+  hideModal = () => {
+    this.setState({ show: false });
+  };
+
   render() {
     return <div className="badge panel">
       <div className="layout horizontal between-justified center hr-badge">
         <p className="sm-text md-weight pl-sm ">Badge Output</p>
-        <a href="/"><span class="material-icons gray-text pr-sm">edit</span></a>
+        <Modal show={this.state.show} handleClose={this.hideModal}>
+          <p>Modal</p>
+        </Modal>
+      <button type="button" className="edit-btn" onClick={this.showModal}>
+      <span class="material-icons gray-text pr-sm">edit</span>
+        </button>
       </div>
       <ul className="light xxs-text">
         <li><strong>First Name: </strong>Allison</li>

@@ -23,3 +23,11 @@ ul {
 .hr-badge {
   border-bottom: 2px solid $gray;
 }
+
+.edit-btn {
+  background-color: $white;
+  border: none;
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -7,7 +7,9 @@ import Badge from './components/badge.js';
 import Schedule from './components/schedule.js';
 import Files from './components/files.js';
 
+
 function App() {
+
   return (
     <div className="App">
       <div className="wrapper">
