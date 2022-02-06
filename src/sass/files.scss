@@ -16,34 +16,85 @@ ul {
 }
 
 tr {
-  display: flex;
   width: 100%;
 }
 
 table {
-    min-width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  min-width: 100%;
 }
 
 th {
-  //   width: 15%;
-  flex: auto;
-  flex-basis: 20%;
-  text-align: left;
-  padding-right: 40px;
+  padding: 15px 20px 15px 5px;
   border-bottom: 2px solid $brand-secondary;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  color: $brand-secondary;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 td {
-  flex: auto;
-  flex-basis: 20%;
-  text-align: left;
-  padding-right: 40px;
+  padding: 20px 20px 20px 5px;
   border-bottom: 1px solid $gray;
-  //   width: 15%;
+  word-wrap: break-word;
+  max-width: 200px;
+}
+
+th.name {
+  min-width: 200px;
   
 }
 
-.checkbox {
-  flex: auto;
+th.status {
+  min-width: 80px;
+  white-space: nowrap;
+}
 
+th.session-name {
+  white-space: nowrap;
+  min-width: 150px;
+}
+
+th.date {
+  min-width: 130px;
+  white-space: nowrap;
+}
+
+th.checkbox {
+  position: sticky;
+  left: 0;
+  background-color: $white;
+  padding-left: 10px;
+}
+
+td.checkbox {
+  position: sticky;
+  left: 0;
+  background-color: $white;
+  border-bottom: 1px solid $gray;
+  padding-left: 10px;
+}
+
+input[type="checkbox"] + label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid $brand-secondary;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label:after {
+  position: relative;
+  top: -2px;
+  left: 1px;
+  content: "\2714";
+  font-size: 12px;
+}
+
+input[type="checkbox"] {
+  display: none;
 }

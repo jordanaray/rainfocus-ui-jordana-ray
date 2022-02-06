@@ -14,8 +14,8 @@ function App() {
         <Nav />
         <div className="main-container layout vertical ">
 
-          <div className="layout horizontal vertical-sm center-justified">
-            <div className="layout vertical flex-35 margin-end-sm margin-bottom-sm ">
+          <div className="layout horizontal vertical-sm between-justified">
+            <div className="layout vertical flex-33 margin-bottom-sm ">
               <Badge />
             </div>
 
