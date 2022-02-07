@@ -1,4 +1,4 @@
-import './sass/App.scss';
+import './sass/app.scss';
 import './sass/layout.scss';
 import './sass/typography.scss';
 import Nav from './components/nav.js';
@@ -10,7 +10,7 @@ import Files from './components/files.js';
 function App() {
 
   return (
-    <div className="App">
+    <div className="app">
       <div className="wrapper">
         <Nav />
         <div className="main-container layout vertical ">
