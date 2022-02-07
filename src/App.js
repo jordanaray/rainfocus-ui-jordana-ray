@@ -1,4 +1,4 @@
-import './sass/app.scss';
+import './sass/App.scss';
 import './sass/layout.scss';
 import './sass/typography.scss';
 import Nav from './components/nav.js';

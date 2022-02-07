@@ -1,6 +1,6 @@
 import React from 'react'
 import '../sass/badge.scss';
-import Modal from '../modal/modal.js';
+import Modal from '../Modal/Modal.js';
 
 
 class Badge extends React.Component {
