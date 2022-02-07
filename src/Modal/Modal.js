@@ -13,7 +13,7 @@ const Modal = ({ handleClose, show, children }) => {
                 <div className="modal-body">
                     <ul className="light xxs-text">
                         <li><input type="text" placeholder="First Name"></input></li>
-                        <li><input type="text" placeholder="Preferred First Name for Badge"></input></li>
+                        <li><input type="text" placeholder="Preferred First Name"></input></li>
                         <li><input type="text" placeholder="Last Name"></input></li>
                         <li><input type="text" placeholder="Company"></input></li>
                         <li><input type="text" placeholder="Onsite - Badge Holders"></input></li>
