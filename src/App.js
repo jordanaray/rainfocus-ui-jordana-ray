@@ -1,6 +1,5 @@
 import './sass/App.scss';
 import './sass/layout.scss';
-import './sass/variables.scss';
 import './sass/typography.scss';
 import Nav from './components/nav.js';
 import Badge from './components/badge.js';

@@ -18,6 +18,13 @@ ul {
   p {
       padding: 10px;
   }
+  .material-icons {
+    color: $gray-text;
+    &:hover {
+      color: darken($color: $gray-text, $amount: 12);
+      transition-duration: .2s;
+    }
+  }
 }
 
 .hr-badge {
@@ -31,3 +38,5 @@ ul {
     cursor: pointer;
   }
 }
+
+

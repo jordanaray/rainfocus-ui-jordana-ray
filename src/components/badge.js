@@ -1,6 +1,6 @@
 import React from 'react'
 import '../sass/badge.scss';
-import Modal from '../Modal/Modal.js';
+import Modal from '../modal/modal.js';
 
 
 class Badge extends React.Component {
@@ -27,10 +27,9 @@ class Badge extends React.Component {
         <div className="layout horizontal between-justified center hr-badge">
           <p className="sm-text md-weight pl-sm ">Badge Output</p>
           <Modal show={this.state.show} handleClose={this.hideModal}>
-            <p>Modal</p>
           </Modal>
           <button type="button" className="edit-btn" onClick={this.showModal}>
-            <span class="material-icons gray-text pr-sm">edit</span>
+            <span class="material-icons pr-sm">edit</span>
           </button>
         </div>
         <ul className="light xxs-text">
@@ -45,8 +44,8 @@ class Badge extends React.Component {
       <div className="layout horizontal between-justified center ">
         <span className="pl-sm xxs-text light"><strong>Check-in: </strong>09/16/16 7:51 AM</span>
         <div className="layout horizontal">
-          <a href="/"><span class="material-icons gray-text pr-sm">delete</span></a>
-          <a href="/"><span class="material-icons gray-text pr-sm">print</span></a>
+          <a href="/"><span class="material-icons pr-sm">delete</span></a>
+          <a href="/"><span class="material-icons pr-sm">print</span></a>
         </div>
       </div>
     </div>

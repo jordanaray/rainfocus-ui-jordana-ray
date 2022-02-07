@@ -1,5 +1,5 @@
 import React from 'react'
-import './Modal.scss'
+import '../sass/modal.scss'
 
 const Modal = ({ handleClose, show, children }) => {
     const showHideClassName = show ? "modal display-block" : "modal display-none";
@@ -8,13 +8,23 @@ const Modal = ({ handleClose, show, children }) => {
             <section className="modal-main">
                 {children}
                 <div className="modal-header">
-                    <h4 className="modal-title">modal title</h4>
+                    <span className="modal-title sm-text">Edit Badge</span>
                 </div>
-                <div className="modal-body">body</div>
+                <div className="modal-body">
+                    <ul className="light xxs-text">
+                        <li><input type="text" placeholder="First Name"></input></li>
+                        <li><input type="text" placeholder="Preferred First Name for Badge"></input></li>
+                        <li><input type="text" placeholder="Last Name"></input></li>
+                        <li><input type="text" placeholder="Company"></input></li>
+                        <li><input type="text" placeholder="Onsite - Badge Holders"></input></li>
+                        <li><input type="text" placeholder="Onsite - Aux"></input></li>
+                    </ul>
+                </div>
                 <div className="modal-footer">
-                    <button type="button" onClick={handleClose}>
-                    Close
-                </button></div>
+                    <button className="modal-btn" type="button" onClick={handleClose}>
+                        Close
+                    </button>
+                </div>
             </section>
         </div>
     )
