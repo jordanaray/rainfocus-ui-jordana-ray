@@ -14,12 +14,10 @@ function App() {
       <div className="wrapper">
         <Nav />
         <div className="main-container layout vertical ">
-
           <div className="layout horizontal vertical-sm between-justified">
             <div className="layout vertical flex-33 margin-bottom-sm ">
               <Badge />
             </div>
-
             <div className="layout vertical flex-65 margin-bottom-sm">
               <Schedule />
             </div>
@@ -28,7 +26,6 @@ function App() {
             <Files />
           </div>
         </div>
-
       </div>
     </div>
   );

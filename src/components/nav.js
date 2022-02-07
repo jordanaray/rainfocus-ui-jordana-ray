@@ -7,11 +7,10 @@ class Nav extends React.Component {
         return <nav className="nav layout vertical between-justified">
             <div>
                 <div className="layout hr-nav-bottom vertical">
-                    <a href="/" className="p-2"><img src={logo} height="20" alt="rainfocus logo"/></a>
+                    <a href="/" className="p-2"><img src={logo} height="20" alt="rainfocus logo" /></a>
                     <a href="/"><span class="material-icons">search</span></a>
                     <a href="/"><span class="material-icons">history</span></a>
                 </div>
-
                 <div className="layout vertical">
                     <a href="/"><span class="material-icons">home</span></a>
                     <a href="/"><span class="material-icons">explore</span></a>
@@ -28,7 +27,6 @@ class Nav extends React.Component {
             <div className="layout vertical hr-nav-top">
                 <a href="/"><span class="material-icons">double_arrow</span></a>
             </div>
-
         </nav>
             ;
     }

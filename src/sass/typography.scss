@@ -1,5 +1,4 @@
-
-@import "variables" ;
+@import "variables";
 
 /* 
 ===========================
@@ -7,167 +6,102 @@ Typography
 ===========================
 */
 body {
-    font-family: $primary-typeface;
-    font-size: $xxs-size;
-    color: $dark-text !important;
-}
-
-
-h1 {
-    color: $dark-text !important;
-    font-family: $primary-typeface;
-    font-size: $xl-size !important;
-}
-
-h2 {
-    font-family: $primary-typeface;
-    font-size: $lg-size !important;
-}
-
-h3 {
-    color: $brand-secondary;
-    font-family: $primary-typeface;
-    font-size: $md-size !important;
-}
-
-h5 {
-    color: $gray-text;
-    font-size: $sm-size !important;
+  font-family: $primary-typeface;
+  font-size: $xxs-size;
+  color: $dark-text !important;
 }
 
 p {
-    font-family: $primary-typeface;
-    font-size: $xxs-size;
-    margin: 0;
+  font-family: $primary-typeface;
+  font-size: $xxs-size;
+  margin: 0;
 }
 
+///font-weight
 
 .light {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .md-weight {
-    font-weight: 400;
+  font-weight: 400;
 }
+
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .brand-primary {
-    color: $brand-primary !important;
+  color: $brand-primary !important;
 }
 
 .brand-secondary {
-    color: $brand-secondary !important;
+  color: $brand-secondary !important;
 }
 
 .white {
-    color: $white !important;
+  color: $white !important;
 }
 
 .black {
-    color: $black !important;
+  color: $black !important;
 }
 
 .gray {
-    color: $gray !important;
+  color: $gray !important;
 }
 
 .gray-text {
-    color: $gray-text !important;
+  color: $gray-text !important;
 }
 
 .dark-text {
-    color: $dark-text !important;
+  color: $dark-text !important;
 }
 
+///font size
+
 .xxs-text {
-    font-size: $xxs-size !important;
+  font-size: $xxs-size !important;
 }
 
 .xs-text {
-    font-size: $xs-size !important;
+  font-size: $xs-size !important;
 }
 
 .sm-text {
-    font-size: $sm-size !important;
+  font-size: $sm-size !important;
 }
 
 .medium-text {
-    font-size: $md-size !important;
-}
-
-.large-text {
-    font-size: $lg-size !important;
-}
-
-.xlarge-text {
-    font-size: $xl-size !important;
-}
-
-.xxlarge-text {
-    font-size: $xxl-size !important;
-}
-
-.italic {
-    font-style: italic;
+  font-size: $md-size !important;
 }
 
 .material-icons {
-    font-size: $md-size;
+  font-size: $md-size;
 }
 
+///responsive sizes
+
 @media (max-width: 768px) {
-    h1 {
-        font-size: 24px !important;
-    }
+  p {
+    font-family: $primary-typeface;
+    font-size: 16px;
+  }
 
-    h2 {
-        font-family: $primary-typeface;
-        font-size: 24px !important;
-    }
+  .xxsmall-text {
+    font-size: $xxs-size !important;
+  }
 
-    h3 {
-        color: $brand-secondary;
-        font-family: $primary-typeface;
-        font-size: 16px !important;
-    }
+  .xsmall-text {
+    font-size: $xxs-size !important;
+  }
 
-    h5 {
-        color: $gray-text;
-        font-size: $sm-size !important;
-    }
+  .small-text {
+    font-size: 16px !important;
+  }
 
-    p {
-        font-family: $primary-typeface;
-        font-size: 16px;
-    }
-
-    .xxsmall-text {
-        font-size: $xxs-size !important;
-    }
-
-    .xsmall-text {
-        font-size: $xxs-size !important;
-    }
-
-    .small-text {
-        font-size: 16px !important;
-    }
-
-    .medium-text {
-        font-size: $sm-size !important;
-    }
-
-    .large-text {
-        font-size: $md-size !important;
-    }
-
-    .xlarge-text {
-        font-size: 24px !important;
-    }
-
-    .xxlarge-text {
-        font-size: $xl-size !important;
-    }
+  .medium-text {
+    font-size: $sm-size !important;
+  }
 }

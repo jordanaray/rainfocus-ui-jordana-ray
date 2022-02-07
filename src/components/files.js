@@ -27,9 +27,7 @@ class Files extends React.Component {
     this.setState({ files: files })
   }
 
-
   render() {
-
     return <div className="files panel">
       <div className="scrolling-table">
         <table>
@@ -43,7 +41,6 @@ class Files extends React.Component {
             <th>Session Code</th>
             <th>Session Status</th>
           </tr>
-
 
           {
             this.state.files.map((file) => {
