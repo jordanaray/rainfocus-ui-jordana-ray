@@ -3,7 +3,7 @@ import React from 'react'
 export const Checkbox = props => {
   return (
     <tr>
-      <td className="checkbox"><input key={props.id} onClick={props.handleCheckChieldElement} type="checkbox" checked={props.isChecked} value={props.value} /></td>
+      <td className="checkbox"><input key={props.id} onClick={props.handleCheckChieldElement} type="checkbox" checked={props.isChecked} value={props.value} readOnly /></td>
       <td>{props.fileName}</td>
       <td>{props.fileType}</td>
       <td>{props.fileDate}</td>

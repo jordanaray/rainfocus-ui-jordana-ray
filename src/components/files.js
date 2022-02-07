@@ -31,8 +31,9 @@ class Files extends React.Component {
     return <div className="files panel">
       <div className="scrolling-table">
         <table>
+          <thead>
           <tr>
-            <th className="checkbox"><input type="checkbox" value="checkedall" onClick={this.handleAllChecked} /></th>
+            <th className="checkbox"><input key="0" type="checkbox" value="checkedall" onClick={this.handleAllChecked} /></th>
             <th className="name">File Name</th>
             <th>File Type</th>
             <th className="date">File Create Date</th>
@@ -41,12 +42,14 @@ class Files extends React.Component {
             <th>Session Code</th>
             <th>Session Status</th>
           </tr>
-
+          </thead>
+          <tbody>
           {
             this.state.files.map((file) => {
-              return (<Checkbox handleCheckChieldElement={this.handleCheckChieldElement}  {...file} />)
+              return (<Checkbox handleCheckChieldElement={this.handleCheckChieldElement} key={file.id} {...file} />)
             })
           }
+          </tbody>
         </table>
       </div>
     </div>;

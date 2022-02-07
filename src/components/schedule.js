@@ -6,7 +6,7 @@ class Schedule extends React.Component {
     return <div className="schedule panel">
       <div className="layout horizontal center hr-badge">
         <p className="sm-text md-weight pl-sm pr-sm">Sunday</p>
-        <span class="gray-text xxs-text pr-sm">July 5, 2018</span>
+        <span className="gray-text xxs-text pr-sm">July 5, 2018</span>
       </div>
 
       <div className="layout horizontal center hr-schedule pl-sm">
@@ -25,8 +25,8 @@ class Schedule extends React.Component {
           </div>
         </div>
         <div className="layout horizontal vertical-sm">
-          <a href="/"><span class="material-icons pr-sm">edit</span></a>
-          <a href="/"><span class="material-icons pr-sm">delete</span></a>
+          <a href="/"><span className="material-icons pr-sm">edit</span></a>
+          <a href="/"><span className="material-icons pr-sm">delete</span></a>
         </div>
       </div>
       
@@ -46,8 +46,8 @@ class Schedule extends React.Component {
           </div>
         </div>
         <div className="layout horizontal vertical-sm ">
-          <a href="/"><span class="material-icons pr-sm">edit</span></a>
-          <a href="/"><span class="material-icons pr-sm">delete</span></a>
+          <a href="/"><span className="material-icons pr-sm">edit</span></a>
+          <a href="/"><span className="material-icons pr-sm">delete</span></a>
         </div>
       </div>
 

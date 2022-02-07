@@ -29,7 +29,7 @@ class Badge extends React.Component {
           <Modal show={this.state.show} handleClose={this.hideModal}>
           </Modal>
           <button type="button" className="edit-btn" onClick={this.showModal}>
-            <span class="material-icons pr-sm">edit</span>
+            <span className="material-icons pr-sm">edit</span>
           </button>
         </div>
         <ul className="light xxs-text">
@@ -44,8 +44,8 @@ class Badge extends React.Component {
       <div className="layout horizontal between-justified center ">
         <span className="pl-sm xxs-text light"><strong>Check-in: </strong>09/16/16 7:51 AM</span>
         <div className="layout horizontal">
-          <a href="/"><span class="material-icons pr-sm">delete</span></a>
-          <a href="/"><span class="material-icons pr-sm">print</span></a>
+          <a href="/"><span className="material-icons pr-sm">delete</span></a>
+          <a href="/"><span className="material-icons pr-sm">print</span></a>
         </div>
       </div>
     </div>
